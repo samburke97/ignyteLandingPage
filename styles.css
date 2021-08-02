@@ -39,7 +39,7 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2em;
+  padding: 2rem;
 }
 
 .flex {
@@ -71,7 +71,7 @@ nav.flex {
 }
 
 .nav-ul {
-  width: 25em;
+  width: 25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,20 +113,13 @@ nav a {
 }
 
 @media screen and (max-width: 768px) {
-  .iphone {
-    order: 0;
-    margin-bottom: 0.5em;
-  }
   .intro {
     order: 1;
-    font-size: var(--fs-md);
     text-align: center;
-  }
-  .intro p {
     font-size: var(--fs-md);
   }
+
   .main-content {
-    margin: 2em;
     flex-direction: column;
   }
 
@@ -195,18 +188,6 @@ nav a {
   color: var(--clr-primary);
 }
 
-@media screen and (max-width: 768px) {
-  .download-text {
-    margin-bottom: 15em;
-  }
-  .download-text p {
-    font-size: var(--fs-md);
-  }
-  .download-text a {
-    font-size: var(--fs-xs);
-  }
-}
-
 /* Footer Section*/
 
 .footer {
@@ -221,6 +202,15 @@ nav a {
 }
 
 @media screen and (max-width: 768px) {
+  .download-text {
+    margin-bottom: 15em;
+  }
+  .download-text p {
+    font-size: var(--fs-md);
+  }
+  .download-text a {
+    font-size: var(--fs-xs);
+  }
   .footer {
     font-size: var(--fs-xs);
   }
